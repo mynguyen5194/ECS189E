@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3da1221-a505-4cd4-96fb-f4cd62b61459" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestInstructor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestStudent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TestExample.java" afterPath="$PROJECT_DIR$/src/test/java/TestAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRUD-demo.iml" afterPath="$PROJECT_DIR$/CRUD-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestAdmin.class" afterPath="$PROJECT_DIR$/target/test-classes/TestAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestInstructor.class" afterPath="$PROJECT_DIR$/target/test-classes/TestInstructor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestAdmin.java" afterPath="$PROJECT_DIR$/src/test/java/TestAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestInstructor.java" afterPath="$PROJECT_DIR$/src/test/java/TestInstructor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +56,11 @@
     <SUITE FILE_PATH="coverage/ECS189E$TestStudent_test.coverage" NAME="TestStudent.test Coverage Results" MODIFIED="1489008592862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestStudent_testRegisterForClass.coverage" NAME="TestStudent.testRegisterForClass Coverage Results" MODIFIED="1489042671527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestStudent.coverage" NAME="TestStudent Coverage Results" MODIFIED="1489031128835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/ECS189E$All_in_CRUD_demo.coverage" NAME="All in CRUD-demo Coverage Results" MODIFIED="1488939267779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestAdmin_testGetClassInstructor_Success.coverage" NAME="TestAdmin.testGetClassInstructor_Success Coverage Results" MODIFIED="1489019572355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestStudent_testSubmitHomework_WithoutClassName.coverage" NAME="TestStudent.testSubmitHomework_WithoutClassName Coverage Results" MODIFIED="1489037486628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ECS189E$All_in_CRUD_demo.coverage" NAME="All in CRUD-demo Coverage Results" MODIFIED="1489045754582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestStudent_testDropClass_InThePast.coverage" NAME="TestStudent.testDropClass_InThePast Coverage Results" MODIFIED="1489035514566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/ECS189E$TestInstructor_testAssignGrade_NegativeGrade.coverage" NAME="TestInstructor.testAssignGrade_NegativeGrade Coverage Results" MODIFIED="1489043930728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ECS189E$TestInstructor_testAssignGrade_NegativeGrade.coverage" NAME="TestInstructor.testAssignGrade_NegativeGrade Coverage Results" MODIFIED="1489045708169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestAdmin_testCreateClass_Duplicate.coverage" NAME="TestAdmin.testCreateClass_Duplicate Coverage Results" MODIFIED="1489044294155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestAdmin_testCreateClass_InstructorWithMoreThan2Courses.coverage" NAME="TestAdmin.testCreateClass_InstructorWithMoreThan2Courses Coverage Results" MODIFIED="1489004794829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ECS189E$TestInstructor_testAsignGrade.coverage" NAME="TestInstructor.testAsignGrade Coverage Results" MODIFIED="1489042626347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -96,7 +96,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.46231547">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="IStudent.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="IStudent.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/api/IStudent.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-60">
@@ -106,10 +106,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IInstructor.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="IInstructor.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/api/IInstructor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
+                <state relative-caret-position="420">
                   <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
                   <folding />
                 </state>
@@ -140,15 +140,15 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TestAdmin.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="TestAdmin.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/TestAdmin.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="43" column="59" lean-forward="false" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+                <state relative-caret-position="133">
+                  <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#3240#3241#0" expanded="true" />
-                    <element signature="e#3301#3302#0" expanded="true" />
+                    <element signature="e#3188#3189#0" expanded="true" />
+                    <element signature="e#3249#3250#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -157,8 +157,8 @@
           <file leaf-file-name="TestInstructor.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/TestInstructor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-579">
-                  <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+                <state relative-caret-position="804">
+                  <caret line="89" column="82" lean-forward="false" selection-start-line="89" selection-start-column="82" selection-end-line="89" selection-end-column="82" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -166,11 +166,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TestStudent.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="TestStudent.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/TestStudent.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1395">
-                  <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <state relative-caret-position="135">
+                  <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -200,6 +200,8 @@
       <find>valid</find>
       <find>Valid</find>
       <find>Success</find>
+      <find>empty</find>
+      <find>System</find>
     </findStrings>
     <replaceStrings>
       <replace>ECS15</replace>
@@ -395,28 +397,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
-  <component name="RunManager" selected="JUnit.TestAdmin">
-    <configuration default="false" name="TestInstructor.testAssignGrade_InstructorDoesnotTeachClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="CRUD-demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestInstructor" />
-      <option name="METHOD_NAME" value="testAssignGrade_InstructorDoesnotTeachClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in CRUD-demo">
     <configuration default="false" name="TestInstructor.testAssignGrade_HomeworkIsnotAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="CRUD-demo" />
@@ -489,6 +470,27 @@
       <option name="MAIN_CLASS_NAME" value="TestAdmin" />
       <option name="METHOD_NAME" value="testCreateClass_Duplicate" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in CRUD-demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CRUD-demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -882,19 +884,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_InstructorDoesnotTeachClass" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_HomeworkIsnotAdded" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_NegativeGrade" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestAdmin" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestAdmin.testCreateClass_Duplicate" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_HomeworkIsnotAdded" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_NegativeGrade" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAdmin" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestAdmin.testCreateClass_Duplicate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in CRUD-demo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestAdmin" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAdmin.testCreateClass_Duplicate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_NegativeGrade" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_HomeworkIsnotAdded" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_InstructorDoesnotTeachClass" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in CRUD-demo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_NegativeGrade" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestAdmin" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAdmin.testCreateClass_Duplicate" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestInstructor.testAssignGrade_HomeworkIsnotAdded" />
       </list>
     </recent_temporary>
   </component>
@@ -912,28 +914,22 @@
       <workItem from="1488333942857" duration="247000" />
       <workItem from="1488334286493" duration="1552000" />
       <workItem from="1488864447936" duration="37774000" />
-      <workItem from="1489044355437" duration="792000" />
+      <workItem from="1489044355437" duration="1365000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAdmin - 2017.03.08 at 23h 25m 11s.xml">
-      <configuration name="TestAdmin" configurationId="JUnit" />
+    <history-entry file="All_in_CRUD-demo - 2017.03.08 at 23h 43m 56s.xml">
+      <configuration name="All in CRUD-demo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CRUD-demo - 2017.03.08 at 23h 49m 16s.xml">
+      <configuration name="All in CRUD-demo" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestAdmin - 2017.03.08 at 23h 26m 22s.xml">
       <configuration name="TestAdmin" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestAdmin - 2017.03.08 at 23h 32m 31s.xml">
       <configuration name="TestAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAdmin_testCreateClass_Duplicate - 2017.03.08 at 23h 24m 34s.xml">
-      <configuration name="TestAdmin.testCreateClass_Duplicate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAdmin_testCreateClass_Duplicate - 2017.03.08 at 23h 24m 55s.xml">
-      <configuration name="TestAdmin.testCreateClass_Duplicate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestInstructor_testAsignGrade - 2017.03.08 at 22h 57m 07s.xml">
-      <configuration name="TestInstructor.testAsignGrade" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestInstructor_testAssignGrade_HomeworkIsnotAdded - 2017.03.08 at 23h 13m 35s.xml">
       <configuration name="TestInstructor.testAssignGrade_HomeworkIsnotAdded" configurationId="JUnit" />
@@ -944,12 +940,18 @@
     <history-entry file="TestInstructor_testAssignGrade_NegativeGrade - 2017.03.08 at 23h 18m 52s.xml">
       <configuration name="TestInstructor.testAssignGrade_NegativeGrade" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestInstructor_testAssignGrade_NegativeGrade - 2017.03.08 at 23h 46m 36s.xml">
+      <configuration name="TestInstructor.testAssignGrade_NegativeGrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInstructor_testAssignGrade_NegativeGrade - 2017.03.08 at 23h 48m 29s.xml">
+      <configuration name="TestInstructor.testAssignGrade_NegativeGrade" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestStudent_testRegisterForClass - 2017.03.08 at 22h 57m 53s.xml">
       <configuration name="TestStudent.testRegisterForClass" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42407000" />
+    <option name="totallyTimeSpent" value="42980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,8 +1070,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1124,8 +1126,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1160,8 +1162,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1196,8 +1198,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1265,13 +1267,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/IInstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1395">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,32 +1283,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestInstructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-579">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="804">
+          <caret line="89" column="82" lean-forward="false" selection-start-line="89" selection-start-column="82" selection-end-line="89" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/IInstructor.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="43" column="59" lean-forward="false" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        <state relative-caret-position="135">
+          <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3240#3241#0" expanded="true" />
-            <element signature="e#3301#3302#0" expanded="true" />
           </folding>
         </state>
       </provider>

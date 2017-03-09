@@ -54,7 +54,6 @@ public class TestAdmin {
         if (instr.equals(admin.getClassInstructor("ECS175", 2017))) {
             courseCount++;
         }
-        System.out.println("*** = " + courseCount);
 
         assertFalse(courseCount > 2);
     }

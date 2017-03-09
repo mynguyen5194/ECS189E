@@ -88,7 +88,6 @@ public class TestInstructor {
         this.instructor.addHomework("Devanbu", "ECS15", 2017, "Lab1", "Stack");
         this.student.submitHomework("Kim", "Lab1", "abc", "ECS15", 2017);
         this.instructor.assignGrade("Devanbu", "ECS15", 2017, "Lab1", "Kim", -10);
-        System.out.println("**** " + this.instructor.getGrade("ECS15", 2017, "Lab1", "Kim"));
-        assertFalse(this.instructor.getGrade("ECS15", 2017, "Lab1", "Kim") >= 0);
+        assertFalse(this.instructor.getGrade("ECS15", 2017, "Lab1", "Kim") < 0);
     }
 }
